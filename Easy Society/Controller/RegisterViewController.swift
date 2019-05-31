@@ -28,7 +28,7 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        refUserData = Database.database().reference().child("ANDROIDUSERS")
+        refUserData = Database.database().reference().child("IOSUSERS")
         
         
     }
